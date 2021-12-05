@@ -1,0 +1,23 @@
+[mysql]
+username = "root"
+password = "BkpbZ9s2"
+host = "127.0.0.1"
+database = "ruohua"
+port = "3306"
+max_idle_connection = 10
+max_open_connection = 100
+sql_type = "mysql"
+
+[log]
+level = "info"
+filepath = "log"
+format = "text"
+max_size = 100
+max_backups = 5
+max_age = 30
+compress = false
+
+[jwt]
+expire_time = 60
+secret = "D6dNRbLnCKTIAgQS82E3"
+issuer = "admin"

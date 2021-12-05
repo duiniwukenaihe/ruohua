@@ -1,0 +1,435 @@
+2021-12-03 10:40:50.595	[ERROR]	api/role.go:127	[role]: This role does not exist
+github.com/chenhqchn/ruohua/server/api.(*RoleApi).AddPolies
+	/Users/chenhongquan/Documents/GithubProjects/ruohua/server/api/role.go:127
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/chenhqchn/ruohua/server/middleware.CheckPrivilege.func1
+	/Users/chenhongquan/Documents/GithubProjects/ruohua/server/middleware/casbin.go:25
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/chenhqchn/ruohua/server/middleware.JwtAuth.func1
+	/Users/chenhongquan/Documents/GithubProjects/ruohua/server/middleware/jwt_auth.go:27
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/recovery.go:99
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/logger.go:241
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/gin.go:489
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/gin.go:445
+net/http.serverHandler.ServeHTTP
+	/usr/local/go/src/net/http/server.go:2878
+net/http.(*conn).serve
+	/usr/local/go/src/net/http/server.go:1929
+2021-12-03 10:41:07.583	[ERROR]	api/role.go:127	: Error 1062: Duplicate entry 'p-test3-----' for key 'idx_casbin_rule'
+github.com/chenhqchn/ruohua/server/api.(*RoleApi).AddPolies
+	/Users/chenhongquan/Documents/GithubProjects/ruohua/server/api/role.go:127
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/chenhqchn/ruohua/server/middleware.CheckPrivilege.func1
+	/Users/chenhongquan/Documents/GithubProjects/ruohua/server/middleware/casbin.go:25
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/chenhqchn/ruohua/server/middleware.JwtAuth.func1
+	/Users/chenhongquan/Documents/GithubProjects/ruohua/server/middleware/jwt_auth.go:27
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/recovery.go:99
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/logger.go:241
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/gin.go:489
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/gin.go:445
+net/http.serverHandler.ServeHTTP
+	/usr/local/go/src/net/http/server.go:2878
+net/http.(*conn).serve
+	/usr/local/go/src/net/http/server.go:1929
+2021-12-03 10:41:32.990	[ERROR]	api/role.go:127	: Error 1062: Duplicate entry 'p-test3-----' for key 'idx_casbin_rule'
+github.com/chenhqchn/ruohua/server/api.(*RoleApi).AddPolies
+	/Users/chenhongquan/Documents/GithubProjects/ruohua/server/api/role.go:127
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/chenhqchn/ruohua/server/middleware.CheckPrivilege.func1
+	/Users/chenhongquan/Documents/GithubProjects/ruohua/server/middleware/casbin.go:25
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/chenhqchn/ruohua/server/middleware.JwtAuth.func1
+	/Users/chenhongquan/Documents/GithubProjects/ruohua/server/middleware/jwt_auth.go:27
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/recovery.go:99
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/logger.go:241
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/gin.go:489
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/gin.go:445
+net/http.serverHandler.ServeHTTP
+	/usr/local/go/src/net/http/server.go:2878
+net/http.(*conn).serve
+	/usr/local/go/src/net/http/server.go:1929
+2021-12-03 10:42:15.073	[ERROR]	api/role.go:127	: Error 1062: Duplicate entry 'p-test3-----' for key 'idx_casbin_rule'
+github.com/chenhqchn/ruohua/server/api.(*RoleApi).AddPolies
+	/Users/chenhongquan/Documents/GithubProjects/ruohua/server/api/role.go:127
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/chenhqchn/ruohua/server/middleware.CheckPrivilege.func1
+	/Users/chenhongquan/Documents/GithubProjects/ruohua/server/middleware/casbin.go:25
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/chenhqchn/ruohua/server/middleware.JwtAuth.func1
+	/Users/chenhongquan/Documents/GithubProjects/ruohua/server/middleware/jwt_auth.go:27
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/recovery.go:99
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/logger.go:241
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/gin.go:489
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/gin.go:445
+net/http.serverHandler.ServeHTTP
+	/usr/local/go/src/net/http/server.go:2878
+net/http.(*conn).serve
+	/usr/local/go/src/net/http/server.go:1929
+2021-12-03 10:42:29.011	[ERROR]	api/role.go:127	: empty slice found
+github.com/chenhqchn/ruohua/server/api.(*RoleApi).AddPolies
+	/Users/chenhongquan/Documents/GithubProjects/ruohua/server/api/role.go:127
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/chenhqchn/ruohua/server/middleware.CheckPrivilege.func1
+	/Users/chenhongquan/Documents/GithubProjects/ruohua/server/middleware/casbin.go:25
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/chenhqchn/ruohua/server/middleware.JwtAuth.func1
+	/Users/chenhongquan/Documents/GithubProjects/ruohua/server/middleware/jwt_auth.go:27
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/recovery.go:99
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/logger.go:241
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/gin.go:489
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/gin.go:445
+net/http.serverHandler.ServeHTTP
+	/usr/local/go/src/net/http/server.go:2878
+net/http.(*conn).serve
+	/usr/local/go/src/net/http/server.go:1929
+2021-12-03 10:43:34.909	[ERROR]	api/role.go:127	[all]: This parameter cannot be passed a null value
+github.com/chenhqchn/ruohua/server/api.(*RoleApi).AddPolies
+	/Users/chenhongquan/Documents/GithubProjects/ruohua/server/api/role.go:127
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/chenhqchn/ruohua/server/middleware.CheckPrivilege.func1
+	/Users/chenhongquan/Documents/GithubProjects/ruohua/server/middleware/casbin.go:25
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/chenhqchn/ruohua/server/middleware.JwtAuth.func1
+	/Users/chenhongquan/Documents/GithubProjects/ruohua/server/middleware/jwt_auth.go:27
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/recovery.go:99
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/logger.go:241
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/gin.go:489
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/gin.go:445
+net/http.serverHandler.ServeHTTP
+	/usr/local/go/src/net/http/server.go:2878
+net/http.(*conn).serve
+	/usr/local/go/src/net/http/server.go:1929
+2021-12-03 10:49:20.440	[ERROR]	api/role.go:127	[policies] Please enter the parameters in the following format, [["api_interface","method"],...]
+github.com/chenhqchn/ruohua/server/api.(*RoleApi).AddPolies
+	/Users/chenhongquan/Documents/GithubProjects/ruohua/server/api/role.go:127
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/chenhqchn/ruohua/server/middleware.CheckPrivilege.func1
+	/Users/chenhongquan/Documents/GithubProjects/ruohua/server/middleware/casbin.go:25
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/chenhqchn/ruohua/server/middleware.JwtAuth.func1
+	/Users/chenhongquan/Documents/GithubProjects/ruohua/server/middleware/jwt_auth.go:27
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/recovery.go:99
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/logger.go:241
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/gin.go:489
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/gin.go:445
+net/http.serverHandler.ServeHTTP
+	/usr/local/go/src/net/http/server.go:2878
+net/http.(*conn).serve
+	/usr/local/go/src/net/http/server.go:1929
+2021-12-03 10:50:08.310	[ERROR]	api/role.go:127	[policies] Policies already exists
+github.com/chenhqchn/ruohua/server/api.(*RoleApi).AddPolies
+	/Users/chenhongquan/Documents/GithubProjects/ruohua/server/api/role.go:127
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/chenhqchn/ruohua/server/middleware.CheckPrivilege.func1
+	/Users/chenhongquan/Documents/GithubProjects/ruohua/server/middleware/casbin.go:25
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/chenhqchn/ruohua/server/middleware.JwtAuth.func1
+	/Users/chenhongquan/Documents/GithubProjects/ruohua/server/middleware/jwt_auth.go:27
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/recovery.go:99
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/logger.go:241
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/gin.go:489
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/gin.go:445
+net/http.serverHandler.ServeHTTP
+	/usr/local/go/src/net/http/server.go:2878
+net/http.(*conn).serve
+	/usr/local/go/src/net/http/server.go:1929
+2021-12-03 10:51:43.166	[ERROR]	api/role.go:127	[all]: This parameter cannot be passed a null value
+github.com/chenhqchn/ruohua/server/api.(*RoleApi).AddPolies
+	/Users/chenhongquan/Documents/GithubProjects/ruohua/server/api/role.go:127
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/chenhqchn/ruohua/server/middleware.CheckPrivilege.func1
+	/Users/chenhongquan/Documents/GithubProjects/ruohua/server/middleware/casbin.go:25
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/chenhqchn/ruohua/server/middleware.JwtAuth.func1
+	/Users/chenhongquan/Documents/GithubProjects/ruohua/server/middleware/jwt_auth.go:27
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/recovery.go:99
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/logger.go:241
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/gin.go:489
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/gin.go:445
+net/http.serverHandler.ServeHTTP
+	/usr/local/go/src/net/http/server.go:2878
+net/http.(*conn).serve
+	/usr/local/go/src/net/http/server.go:1929
+2021-12-03 10:51:46.809	[ERROR]	api/role.go:127	[policies] Please enter the parameters in the following format, [["api_interface","method"],...]
+github.com/chenhqchn/ruohua/server/api.(*RoleApi).AddPolies
+	/Users/chenhongquan/Documents/GithubProjects/ruohua/server/api/role.go:127
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/chenhqchn/ruohua/server/middleware.CheckPrivilege.func1
+	/Users/chenhongquan/Documents/GithubProjects/ruohua/server/middleware/casbin.go:25
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/chenhqchn/ruohua/server/middleware.JwtAuth.func1
+	/Users/chenhongquan/Documents/GithubProjects/ruohua/server/middleware/jwt_auth.go:27
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/recovery.go:99
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/logger.go:241
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/gin.go:489
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/gin.go:445
+net/http.serverHandler.ServeHTTP
+	/usr/local/go/src/net/http/server.go:2878
+net/http.(*conn).serve
+	/usr/local/go/src/net/http/server.go:1929
+2021-12-03 10:51:51.929	[ERROR]	api/role.go:127	[policies] Please enter the parameters in the following format, [["api_interface","method"],...]
+github.com/chenhqchn/ruohua/server/api.(*RoleApi).AddPolies
+	/Users/chenhongquan/Documents/GithubProjects/ruohua/server/api/role.go:127
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/chenhqchn/ruohua/server/middleware.CheckPrivilege.func1
+	/Users/chenhongquan/Documents/GithubProjects/ruohua/server/middleware/casbin.go:25
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/chenhqchn/ruohua/server/middleware.JwtAuth.func1
+	/Users/chenhongquan/Documents/GithubProjects/ruohua/server/middleware/jwt_auth.go:27
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/recovery.go:99
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/logger.go:241
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/gin.go:489
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/gin.go:445
+net/http.serverHandler.ServeHTTP
+	/usr/local/go/src/net/http/server.go:2878
+net/http.(*conn).serve
+	/usr/local/go/src/net/http/server.go:1929
+2021-12-03 10:51:55.459	[ERROR]	api/role.go:127	[policies] Please enter the parameters in the following format, [["api_interface","method"],...]
+github.com/chenhqchn/ruohua/server/api.(*RoleApi).AddPolies
+	/Users/chenhongquan/Documents/GithubProjects/ruohua/server/api/role.go:127
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/chenhqchn/ruohua/server/middleware.CheckPrivilege.func1
+	/Users/chenhongquan/Documents/GithubProjects/ruohua/server/middleware/casbin.go:25
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/chenhqchn/ruohua/server/middleware.JwtAuth.func1
+	/Users/chenhongquan/Documents/GithubProjects/ruohua/server/middleware/jwt_auth.go:27
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/recovery.go:99
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/logger.go:241
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/gin.go:489
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/gin.go:445
+net/http.serverHandler.ServeHTTP
+	/usr/local/go/src/net/http/server.go:2878
+net/http.(*conn).serve
+	/usr/local/go/src/net/http/server.go:1929
+2021-12-03 10:52:00.269	[ERROR]	api/role.go:127	[policies] Please enter the parameters in the following format, [["api_interface","method"],...]
+github.com/chenhqchn/ruohua/server/api.(*RoleApi).AddPolies
+	/Users/chenhongquan/Documents/GithubProjects/ruohua/server/api/role.go:127
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/chenhqchn/ruohua/server/middleware.CheckPrivilege.func1
+	/Users/chenhongquan/Documents/GithubProjects/ruohua/server/middleware/casbin.go:25
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/chenhqchn/ruohua/server/middleware.JwtAuth.func1
+	/Users/chenhongquan/Documents/GithubProjects/ruohua/server/middleware/jwt_auth.go:27
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/recovery.go:99
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/logger.go:241
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/gin.go:489
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/gin.go:445
+net/http.serverHandler.ServeHTTP
+	/usr/local/go/src/net/http/server.go:2878
+net/http.(*conn).serve
+	/usr/local/go/src/net/http/server.go:1929
+2021-12-03 10:52:27.102	[ERROR]	api/role.go:127	[policies] Policies already exists
+github.com/chenhqchn/ruohua/server/api.(*RoleApi).AddPolies
+	/Users/chenhongquan/Documents/GithubProjects/ruohua/server/api/role.go:127
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/chenhqchn/ruohua/server/middleware.CheckPrivilege.func1
+	/Users/chenhongquan/Documents/GithubProjects/ruohua/server/middleware/casbin.go:25
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/chenhqchn/ruohua/server/middleware.JwtAuth.func1
+	/Users/chenhongquan/Documents/GithubProjects/ruohua/server/middleware/jwt_auth.go:27
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/recovery.go:99
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/logger.go:241
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/gin.go:489
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/gin.go:445
+net/http.serverHandler.ServeHTTP
+	/usr/local/go/src/net/http/server.go:2878
+net/http.(*conn).serve
+	/usr/local/go/src/net/http/server.go:1929
+2021-12-03 12:00:20.679	[ERROR]	api/role.go:80	: [role]: This role does not exist
+github.com/chenhqchn/ruohua/server/api.(*RoleApi).DeleteRole
+	/Users/chenhongquan/Documents/GithubProjects/ruohua/server/api/role.go:80
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/chenhqchn/ruohua/server/middleware.CheckPrivilege.func1
+	/Users/chenhongquan/Documents/GithubProjects/ruohua/server/middleware/casbin.go:25
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/chenhqchn/ruohua/server/middleware.JwtAuth.func1
+	/Users/chenhongquan/Documents/GithubProjects/ruohua/server/middleware/jwt_auth.go:27
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/recovery.go:99
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/logger.go:241
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/gin.go:489
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/chenhongquan/Documents/GoProjects/pkg/mod/github.com/gin-gonic/gin@v1.7.4/gin.go:445
+net/http.serverHandler.ServeHTTP
+	/usr/local/go/src/net/http/server.go:2878
+net/http.(*conn).serve
+	/usr/local/go/src/net/http/server.go:1929
